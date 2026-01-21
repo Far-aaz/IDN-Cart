@@ -1,0 +1,33 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Rubik+Storm&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* breakpoint */
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  
+
+  /* font */
+  --font-Gravitas: 'Gravitas One', sans-serif;
+  --font-Rubik: "Rubik Storm", system-ui;
+
+  /* colors */
+  --color-primary: #fd3d57;
+
+}
+
+@layer utilities {
+  .container {
+    margin-inline: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+body{
+  font-family: var(--font-Gravitas);
+}
